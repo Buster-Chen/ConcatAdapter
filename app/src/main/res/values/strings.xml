@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ConcatAdapter</string>
+    <string name="add_content">Add Content</string>
+    <string name="update_first_title">First</string>
+    <string name="update_second_title">Second</string>
+    <string name="update_headline">Headline</string>
+    <string name="single_headline">SingleHeadline</string>
+</resources>
