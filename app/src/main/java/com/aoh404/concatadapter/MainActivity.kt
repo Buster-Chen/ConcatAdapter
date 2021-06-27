@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
             AddContentAdapter()
         )
         dataBinding.rvContainer.adapter = concatAdapter
-        secondHeadlineAdapter.submitList(List(10) { "$it First Headline: $index" })
+        secondHeadlineAdapter.submitList(List(10) { "$it Second Headline: $index" })
     }
 
     fun updateFirstTitle(view: View) {
@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
 
     fun updateHeadline(view: View) {
         ++index
-        firstHeadlineAdapter.submitList(List(10) { "$it Second Headline: $index" })
+        firstHeadlineAdapter.submitList(List(10) { "$it First Headline: $index" })
     }
 
     fun singleHeadline(view: View) {
